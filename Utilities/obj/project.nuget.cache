@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rM2D6yF1KpzlIG3X07IrC/2BTbyOHLpUbritldxc7Opc+kWHTfiquLkdNGEZeoXaInweXhGAnIzuzANv2JKwMA==",
+  "dgSpecHash": "7jtI6XvChnWy553pWCRaidknND65VdRHDBzlucvZzINwryCV8qFWs59xGur3uSbKpHePCKst7l6Ge+uODvcSBQ==",
   "success": true,
   "projectFilePath": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\Utilities\\Utilities.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\hamid\\.nuget\\packages\\nunit3testadapter\\4.0.0\\nunit3testadapter.4.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

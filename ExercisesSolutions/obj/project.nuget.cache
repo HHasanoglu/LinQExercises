@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "h5NfHR6DdqfszjcscCk1y1fZhDRF+D9a+paCl8f0t8HlANl6zMnYZDMED67dnDAi9H6nXnZSysmdCIKqYaAL9g==",
+  "dgSpecHash": "NXc/aof6IEnenqteCCa5+mzgfKPsXC//0icUvf5T/lmtgdvHGzGJqvWlH9zV8NHTGD49Ra2QygaWQeIPPoQRjg==",
   "success": true,
   "projectFilePath": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\ExercisesSolutions\\ExercisesSolutions.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\hamid\\.nuget\\packages\\nunit3testadapter\\4.0.0\\nunit3testadapter.4.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

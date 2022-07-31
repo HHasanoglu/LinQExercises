@@ -9,6 +9,7 @@ namespace LinqTutorial
         {
             //METHOD SYNTAX
 
+            LamdaExpression.Run();
             //Any.Run();
             //All.Run();
             //Count.Run();

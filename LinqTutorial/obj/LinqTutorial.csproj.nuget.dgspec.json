@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\LinqTutorial\\LinqTutorial.csproj": {}
+    "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\LinqTutorial\\LinqTutorial.csproj": {}
   },
   "projects": {
-    "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\LinqTutorial\\LinqTutorial.csproj": {
+    "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\LinqTutorial\\LinqTutorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\LinqTutorial\\LinqTutorial.csproj",
+        "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\LinqTutorial\\LinqTutorial.csproj",
         "projectName": "LinqTutorial",
-        "projectPath": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\LinqTutorial\\LinqTutorial.csproj",
+        "projectPath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\LinqTutorial\\LinqTutorial.csproj",
         "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
-        "outputPath": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\LinqTutorial\\obj\\",
+        "outputPath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\LinqTutorial\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
           "C:\\Users\\hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -24,14 +28,15 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\Utilities\\Utilities.csproj": {
-                "projectPath": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\Utilities\\Utilities.csproj"
+              "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\Utilities\\Utilities.csproj": {
+                "projectPath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -45,12 +50,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[4.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -61,27 +60,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\Utilities\\Utilities.csproj": {
+    "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\Utilities\\Utilities.csproj",
+        "projectPath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
-        "outputPath": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\Utilities\\obj\\",
+        "outputPath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
           "C:\\Users\\hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,6 +88,7 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -107,12 +106,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[4.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -123,12 +116,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
         }
       }
     }

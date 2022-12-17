@@ -2,18 +2,9 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "NUnit3TestAdapter/4.0.0": {
-        "type": "package",
-        "build": {
-          "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
-        }
-      },
       "Utilities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "NUnit3TestAdapter": "4.0.0"
-        },
         "compile": {
           "bin/placeholder/Utilities.dll": {}
         },
@@ -24,31 +15,6 @@
     }
   },
   "libraries": {
-    "NUnit3TestAdapter/4.0.0": {
-      "sha512": "5gCkytgQWL93M5s9Rnl4CfSUhn95VsuMVLYjmZe8K7dNRF7kzrBMPsBTyLNCga5qLW7RM/o591J+HVrV1QMaVQ==",
-      "type": "package",
-      "path": "nunit3testadapter/4.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/net35/NUnit3.TestAdapter.dll",
-        "build/net35/NUnit3.TestAdapter.pdb",
-        "build/net35/NUnit3TestAdapter.props",
-        "build/net35/nunit.engine.api.dll",
-        "build/net35/nunit.engine.core.dll",
-        "build/net35/nunit.engine.dll",
-        "build/net35/testcentric.engine.metadata.dll",
-        "build/netcoreapp2.1/NUnit3.TestAdapter.dll",
-        "build/netcoreapp2.1/NUnit3.TestAdapter.pdb",
-        "build/netcoreapp2.1/NUnit3TestAdapter.props",
-        "build/netcoreapp2.1/nunit.engine.api.dll",
-        "build/netcoreapp2.1/nunit.engine.core.dll",
-        "build/netcoreapp2.1/nunit.engine.dll",
-        "build/netcoreapp2.1/testcentric.engine.metadata.dll",
-        "nunit3testadapter.4.0.0.nupkg.sha512",
-        "nunit3testadapter.nuspec"
-      ]
-    },
     "Utilities/1.0.0": {
       "type": "project",
       "path": "../Utilities/Utilities.csproj",
@@ -57,25 +23,29 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "NUnit3TestAdapter >= 4.0.0",
       "Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hamid\\.nuget\\packages\\": {}
+    "C:\\Users\\hamid\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\LinqTutorial\\LinqTutorial.csproj",
+      "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\LinqTutorial\\LinqTutorial.csproj",
       "projectName": "LinqTutorial",
-      "projectPath": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\LinqTutorial\\LinqTutorial.csproj",
+      "projectPath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\LinqTutorial\\LinqTutorial.csproj",
       "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
-      "outputPath": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\LinqTutorial\\obj\\",
+      "outputPath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\LinqTutorial\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+      ],
       "configFilePaths": [
         "C:\\Users\\hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -84,14 +54,15 @@
       "sources": {
         "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\Utilities\\Utilities.csproj": {
-              "projectPath": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\Utilities\\Utilities.csproj"
+            "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\Utilities\\Utilities.csproj": {
+              "projectPath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\Utilities\\Utilities.csproj"
             }
           }
         }
@@ -105,12 +76,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-        "dependencies": {
-          "NUnit3TestAdapter": {
-            "target": "Package",
-            "version": "[4.0.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -121,12 +86,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
       }
     }
   }

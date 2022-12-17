@@ -72,6 +72,10 @@ namespace Exercises
                 Weight = weight;
             }
 
+
+
+
+
             public override string ToString()
             {
                 return $"Id: {Id}, Name: {Name}, Type: {PetType}, Weight: {Weight}";

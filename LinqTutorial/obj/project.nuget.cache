@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ev0H0Iw5tRtgqow1PxX2bL7kxZ7PV4vkexWvHogIK/0C+Lp/5Zp4mHyKz/SCiMevFRUCiWG/eDNjIfdKOQWx3g==",
+  "dgSpecHash": "ofzZx0jPtR5RqUys3xNBhrTPSlWLIisc6FP6pFjNuqKxeigt/IclY8kCe1sPlJG0i8yvrOqlCQ5ARRdBiDl15w==",
   "success": true,
-  "projectFilePath": "D:\\Hamid1\\Hassanzada\\Learnings\\LinQ\\LinqTutorial\\LinqTutorial.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\hamid\\.nuget\\packages\\nunit3testadapter\\4.0.0\\nunit3testadapter.4.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\LinqTutorial\\LinqTutorial.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

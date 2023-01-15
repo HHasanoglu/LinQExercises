@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\ExercisesTests\\ExercisesTests.csproj",
+      "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\LinQ\\ExercisesTests\\ExercisesTests.csproj",
       "projectName": "ExercisesTests",
-      "projectPath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\ExercisesTests\\ExercisesTests.csproj",
+      "projectPath": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\LinQ\\ExercisesTests\\ExercisesTests.csproj",
       "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
-      "outputPath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\ExercisesTests\\obj\\",
+      "outputPath": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\LinQ\\ExercisesTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
@@ -61,8 +61,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\Exercises\\Exercises.csproj": {
-              "projectPath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\Exercises\\Exercises.csproj"
+            "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\LinQ\\Exercises\\Exercises.csproj": {
+              "projectPath": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\LinQ\\Exercises\\Exercises.csproj"
             }
           }
         }

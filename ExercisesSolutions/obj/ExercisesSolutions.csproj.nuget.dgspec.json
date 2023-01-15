@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\ExercisesSolutions\\ExercisesSolutions.csproj": {}
+    "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\LinQ\\ExercisesSolutions\\ExercisesSolutions.csproj": {}
   },
   "projects": {
-    "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\ExercisesSolutions\\ExercisesSolutions.csproj": {
+    "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\LinQ\\ExercisesSolutions\\ExercisesSolutions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\ExercisesSolutions\\ExercisesSolutions.csproj",
+        "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\LinQ\\ExercisesSolutions\\ExercisesSolutions.csproj",
         "projectName": "ExercisesSolutions",
-        "projectPath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\ExercisesSolutions\\ExercisesSolutions.csproj",
+        "projectPath": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\LinQ\\ExercisesSolutions\\ExercisesSolutions.csproj",
         "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
-        "outputPath": "D:\\Hamid1\\Hassanzada\\Projects\\LinQ\\ExercisesSolutions\\obj\\",
+        "outputPath": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\LinQ\\ExercisesSolutions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"

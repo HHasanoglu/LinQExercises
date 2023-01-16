@@ -157,6 +157,11 @@ namespace Exercises
 
 
 
+
+
+
+
+
             public override string ToString()
             {
                 return $"Id: {Id}, Name: {Name}, Type: {PetType}, Weight: {Weight}";

@@ -70,6 +70,12 @@ namespace Exercises
                 Name = name;
                 PetType = petType;
                 Weight = weight;
+
+
+
+
+
+
             }
             public override string ToString()
             {
